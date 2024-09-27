@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 3</title>
+</head>
+<body>
+    <script>
+
+        function numeros (n1, n2) {
+            let digito_1 = Math.floor(n1 / 10)
+            let digito_ultimo = n2 % 10
+            let n3 = digito_1 * 10 + digito_ultimo
+            return n3
+
+        }
+        let numero3 = numeros (23,89)
+        alert(" O valor de N3 é igual a: " + numero3)
+
+    </script>
+</body>
+</html>

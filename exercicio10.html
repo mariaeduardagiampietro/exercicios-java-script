@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 10</title>
+</head>
+<body>
+    <script>
+
+       function rReverso(num) {
+        const string = Math.abs(num).toString()
+        return parseInt(string.split('').reverse().join(''), 10)
+    }
+
+    const num = 127
+    const nreverso = rReverso(num)
+    alert (" Reverso do número " + num + " é igual a : " + nreverso)
+
+    </script>
+</body>
+</html>

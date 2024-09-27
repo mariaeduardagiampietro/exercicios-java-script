@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 5 </title>
+</head>
+<body>
+    <script>
+
+        function ValorNumerico (num1, num2, simbolo) {
+            if (simbolo == "+") {
+                let soma = num1 + num2
+                return soma
+            } else if ( simbolo == "-") {
+                let subtracao = num1 - num2
+                return subtracao
+            } else if (simbolo == "/") {
+                let divisao = num1 / num2
+                return divisao
+            } else if ( simbolo ==  "*") {
+                let multiplicacao = num1 * num2
+                return multiplicacao
+            }
+
+         }
+         let soma = ValorNumerico (10, 20, "+")
+         let subtracao = ValorNumerico (10, 20, "-")
+         let divisao =  ValorNumerico (10, 20, "/")
+         let multiplicacao = ValorNumerico (10, 20, "*")
+        alert (" O valor da soma é igual a: " + soma)
+        alert (" O valor da subtração é igual a: " + subtracao)
+        alert (" O valor da divisão é igual a: " + divisao)
+        alert (" O valor da multiplicação é igual a: " + multiplicacao)
+         
+
+    </script>
+    
+</body>
+</html>

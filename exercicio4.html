@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 4 </title>
+</head>
+<body>
+    <script>
+
+        function alunoNota(nota1, nota2, nota3, letra){
+            if (letra == "A") {
+                let mediaA = (nota1 + nota2 + nota3) / 3
+                return mediaA
+            } else if (letra == "P") {
+                let mediaP = (nota1 * 5 + nota2 * 3 + nota3 * 2)
+                return mediaP
+            
+            }     
+        }
+        let mediaA = alunoNota( 8.5, 5.0, 10.0, "A")
+        let mediaP = alunoNota( 8.5, 5.0, 10.0, "P")
+        alert ("A média aritmética é igual a: " + mediaA)
+        alert ("A média ponderada é igual a: " + mediaP)
+
+    </script>
+</body>
+</html>
